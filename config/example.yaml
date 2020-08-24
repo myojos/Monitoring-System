@@ -1,0 +1,25 @@
+rules:
+  many_people:
+    people:
+      max: 3
+  person1:
+    Face:
+      - {
+        start: 23:00
+        end: 4:00
+        value: face1.pkl
+      }
+      - {
+        start: 9:00
+        end: 13:00
+        value: face2.pkl
+      }
+  violence_alert:
+    violence
+  few people:
+    people:
+      - {
+        start: 22:00
+        end: 6:00
+        value: 0
+      }
